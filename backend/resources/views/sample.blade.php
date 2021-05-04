@@ -4,5 +4,6 @@
   </head>
   <body>
     <h1>HelloWorld!</h1>
+    <p>たくみとかけるの共同開発がこれから始まります！！</p>
   </body>
 </html>
