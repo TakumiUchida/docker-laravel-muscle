@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    logger('welcome route.');
     return view('welcome');
 });
 
 Route::get('test/func', 'App\Http\Controllers\TestController@func');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
